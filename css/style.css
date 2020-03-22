@@ -1,16 +1,133 @@
 body {
-    background-color: #EAF6F6;
+    color: #40514E;
+    margin: 0;
+    background-color: #f5ffff;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+}
+
+
+h1 {
+    color: #66BFBF;
+    font-size: 562.5%;
+    font-family: 'Sacramento', cursive;
+    margin: 50px auto 0 auto
+}
+
+h2 {
+    color: #66BFBF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+}
+
+h3 {
+    color: #11999E;
+    font-weight: normal;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    line-height: 2;
+}
+
+a {
+    color: #11999E;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
 }
 
 hr {
-    border-style: none;
-    border-top-style: dotted;
-    border-color: gray;
-    border-width: 10px;
-    height: 0px;
-    width: 30%;
+    border: dotted gray 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
 }
 
-h1, h3 {
-    color: #66BFBF;
+.top-container {
+    background-color: lightcyan;
+    position: relative;
+    padding-top: 100px;
+}
+
+.middle-container {
+    margin: 50px auto 50px auto;
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+}
+.top-cloud{
+    position: absolute;
+    right: 200px;
+    top: 50px;
+}
+.bot-cloud{
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+}
+
+.profileImage {
+    border-radius: 100%;
+}
+
+.profile {
+    width: 30%;
+    margin: 30px auto;
+}
+.skill-row {
+    display: inline-block;
+    margin: 50px auto 50px auto;
+    width: 50%;
+    text-align: left;
+    line-height: 2;
+}
+
+.skill_1{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.skill_2{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.contact-message {
+     width: 40%;
+     margin: 40px auto 60px auto;
+}
+
+.myButton {
+    background-color:#11999E;
+    border-radius:8px;
+    border:1px solid #3b6e22;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial, serif;
+    font-size:17px;
+    padding:16px 31px;
+    text-decoration:none;
+    text-shadow:0 1px 0 #92b879;
+}
+.myButton:hover {
+    background-color:#66BFBF;
+}
+.myButton:active {
+    position:relative;
+    top:1px;
+}
+
+.copyright {
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    margin-bottom: 10px;
 }
